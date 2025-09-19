@@ -1,9 +1,9 @@
 
 :root {
     font-size: 10px;
-    --main-color: #d3ad7f;
+    --main-color: #3a7ac4;
     --black: #131313;
-    --bg: #010103;
+    --bg: #fff;
     --border: 0.1rem solid rgba(255, 255, 255, 0.3);
 }
 
@@ -63,13 +63,13 @@ section {
 }
 
 header section a img {
-    height: 6rem;
+    width: 10rem;
 }
 
 .header section nav a {
     margin: 0 1rem;
     font-size: 1.8rem;
-    color: #fff; 
+    color: black; 
     transition: 0.4s linear;
 }
 
@@ -140,6 +140,7 @@ header section a img {
 
 .caixa-sobre .sobre-container .sobre-imagem{
     flex: 1 1 45rem;
+    padding: 1.5rem;
 }
 
 .caixa-sobre .sobre-container .sobre-imagem img{
